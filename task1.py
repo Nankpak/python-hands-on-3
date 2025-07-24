@@ -1,4 +1,4 @@
-"""
+"""meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 Task 1: Jos Food and Culture Festival Menu (Modified)
 You're part of the planning team for the Jos Food and Culture Festival hosted by Blockfuse Labs Cohort III. A list of traditional Plateau meals was created for display on the second day of the event:
 meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
@@ -10,3 +10,13 @@ meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
 5. Arrange the Meals in alphabetical order
 → Modify the list as required and print the final list and the center meal.
 """
+meals = ["Gwote", "Masa", "Tuwon Acha", "Fura da Nono", "Kunu", "Miyan Kuka"]
+meals.insert(4,"Miyan Taushe")
+print(meals)
+meals.remove("Masa")
+print(meals)
+meals.insert(-1,"Fura da Nono")
+print(meals)
+print(f"the available meal now are{meals}")
+meals.sort()
+print(meals)
